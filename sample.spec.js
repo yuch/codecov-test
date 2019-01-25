@@ -1,3 +1,5 @@
+const sample = require('./sample');
+
 test('sample', function() {
-  expect(1 + 1).toBe(2);
+  expect(sample.one() + sample.one()).toBe(2);
 });
